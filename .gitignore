@@ -8,5 +8,6 @@
 !.yarn/versions
 node_modules
 yarn-error.log
+.idea
 
 bin
