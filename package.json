@@ -5,6 +5,7 @@
   "funding": "https://github.com/sponsors/lukasbach",
   "bin": "bin/whisper-bin-x64/main.exe",
   "main": "./index.js",
+  "types": "./index.d.ts",
   "files": [
     "bin"
   ],
