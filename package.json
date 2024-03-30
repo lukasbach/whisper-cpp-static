@@ -35,5 +35,6 @@
   "publish": {
     "preScripts": "build,lint:test,test",
     "releaseNotesSource": "next-releasenotes.md"
-  }
+  },
+  "repository": "https://github.com/lukasbach/whisper-cpp-static.git"
 }
