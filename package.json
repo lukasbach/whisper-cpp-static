@@ -1,0 +1,39 @@
+{
+  "name": "whisper-cpp-static",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Static build of whisper.cpp by ggerganov",
+  "funding": "https://github.com/sponsors/lukasbach",
+  "bin": "bin/whisper-bin-x64/main.exe",
+  "main": "./index.js",
+  "files": [
+    "bin"
+  ],
+  "tags": [
+    "whisper",
+    "ai",
+    "audio",
+    "speech",
+    "recognition",
+    "asr",
+    "model",
+    "ml"
+  ],
+  "author": "Lukas Bach <contact@lukasbach.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "publish-fast": "^0.0.20",
+    "zx": "^7.2.3"
+  },
+  "scripts": {
+    "build": "zx download.mjs",
+    "release": "publish-fast"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "publish": {
+    "preScripts": "build,lint:test,test",
+    "releaseNotesSource": "next-releasenotes.md"
+  }
+}
