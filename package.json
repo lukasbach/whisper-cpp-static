@@ -1,7 +1,6 @@
 {
   "name": "whisper-cpp-static",
-  "version": "0.0.1",
-  "private": true,
+  "version": "0.0.0",
   "description": "Static build of whisper.cpp by ggerganov",
   "funding": "https://github.com/sponsors/lukasbach",
   "bin": "bin/whisper-bin-x64/main.exe",
